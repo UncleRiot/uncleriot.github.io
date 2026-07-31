@@ -6,7 +6,7 @@
       <article class="project-card accent-${project.accent}">
         <a class="project-visual" href="${project.page}" aria-label="Open ${project.name}">
           <span class="visual-grid"></span>
-          <span class="project-symbol symbol-${project.icon}" aria-hidden="true"></span>
+          <span class="project-symbol"><img src="${project.image}" alt="${project.name} app icon"></span>
           <span class="visual-caption">${project.name}</span>
         </a>
         <div class="project-card-body">
